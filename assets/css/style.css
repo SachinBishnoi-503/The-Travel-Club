@@ -19,7 +19,7 @@
     --font-size-36: 36px;
     --font-size-24: 24px;
     --font-size-20: 20px;
-    --font-size-: px;
+    --font-size-14: 14px;
     --font-size-: px;
     --font-size-: px;
     --font-size-: px;
@@ -31,6 +31,7 @@
     --color-white: #FFFFFF;
     --color-linear: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
     --color-navbar: #1F1F49;
+    --color-blur: #1C1737;
 }
 
 .nav-background {
@@ -79,6 +80,192 @@
 
 .menubar {
     display: none;
+}
+
+/* section-1 */
+.background-image {
+    background-image: url(../images/png/section1-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    background-position: center;
+}
+
+.section1-heading {
+    font-family: "Sans Serif Collection", sans-serif;
+    font-size: var(--font-size-64);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 75.2px;
+    text-align: center;
+}
+
+.section1-travel {
+    font-family: "Sans Serif Collection", sans-serif;
+    font-size: var(--font-size-64);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 75.2px;
+    text-align: center;
+}
+
+.pt-9 {
+    padding-top: 9rem;
+}
+
+.card-stays {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-white);
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.blurbox {
+    max-width: 930px;
+    width: 100%;
+    /* height: 300px; */
+    padding: 30px;
+    margin-top: 65px;
+    border-radius: 16px;
+    background: var(--color-blur);
+    border: 1px solid #FDFDFD66;
+}
+
+.going-box {
+    width: 452px;
+    border-radius: 8px;
+    background: #FFFFFF14;
+    border: 1px solid #FFFFFF99;
+    padding: 16px;
+}
+
+.going-to {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--color-white);
+    text-align: left;
+}
+
+.check-in {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-10);
+    font-weight: 300;
+    line-height: 15px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.jun {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.calenderbox {
+    width: 180px;
+    /* height: 48px; */
+    border-radius: 8px;
+    background: #FFFFFF14;
+    border: 1px solid #FFFFFF99;
+    padding: 5px;
+}
+
+.room-travelers {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    color: var(--color-white);
+}
+
+.search-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: var();
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-white);
+    width: 122px;
+    height: 52px;
+    border-radius: 60px;
+    background: var(--color-linear);
+    border: none;
+    margin-top: 34px;
+}
+
+.add-a-flight {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-white);
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+.input_2 {
+    /* max-width: 180px; */
+    border-radius: 8px;
+    border: 1px solid var(--grey3);
+    background: var(--black2);
+    padding: 5px 10px 7px 10px;
+
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-group label {
+    position: relative;
+    cursor: pointer;
+}
+
+.form-group label:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0.6px solid #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+    top: 0px;
+}
+
+.form-group input:checked+label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    width: 6px;
+    height: 14px;
+    border: 0.6px solid #FFFFFF;
+    border-radius: 2px;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
 
 @media (max-width:992px) {
