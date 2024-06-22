@@ -28,6 +28,7 @@
     --font-size-: px;
     /* color-root */
     --color-white1: #FAFAFA;
+    --color-white2: #FCFFFE;
     --color-white: #FFFFFF;
     --color-linear: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
     --color-navbar: #1F1F49;
@@ -635,6 +636,34 @@
 
 .color-border4 {
     border-color: #98DBB3;
+}
+
+/* section-6 */
+.meet-our-team {
+    font-family: "Sans Serif Collection", sans-serif;
+    font-size: var(--font-size-48);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 56.4px;
+    text-align: center;
+}
+
+.slider2-darlene {
+    font-family: "Sans Serif Collection", sans-serif;
+    font-size: var(--font-size-24);
+    color: var(--color-white2);
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.slider2-ceo {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-white2);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 @media (min-width:992px) {
