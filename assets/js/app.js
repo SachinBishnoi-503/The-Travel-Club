@@ -29,3 +29,13 @@ $('.slider').slick({
         }
     ]
 });
+
+const accordaon = document.querySelectorAll(".accordion-heading");
+
+accordaon.forEach(acc => {
+    acc.addEventListener("click", function () {
+        const accacitve = document.querySelector(".accordion.acc-active");
+        acc.parentElement.classList.toggle("acc-active");
+        accacitve && accacitve.classList.remove("acc-active");
+    });
+});
