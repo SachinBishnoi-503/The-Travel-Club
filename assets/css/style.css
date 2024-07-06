@@ -21,8 +21,8 @@
     --font-size-20: 20px;
     --font-size-14: 14px;
     --font-size-32: 32px;
-    --font-size-: px;
-    --font-size-: px;
+    --font-size-39: 39px;
+    --font-size-29: 29px;
     --font-size-: px;
     --font-size-: px;
     --font-size-: px;
@@ -852,6 +852,56 @@
     border: 1px solid #E9EBED;
 }
 
+/* section-8 */
+.footer-1 {
+    background-color: black !important;
+}
+
+.footer-icon:hover {
+    scale: 0, 07;
+}
+
+.the-travel-club-last {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: var(--font-size-28);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 35.7px;
+    text-align: left;
+}
+
+.footer-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-white1);
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.footer-link {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.footer-text-link {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-white1);
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.footer-icon {
+    transition: all 300ms ease-in-out;
+}
+
+/*  */
+
 @media (min-width:992px) {
     .mt-22 {
         margin-top: 22px !important;
@@ -874,6 +924,26 @@
 
     .accordian-paragraph {
         font-size: var(--font-size-14) !important;
+    }
+
+    .tokenomics-heading {
+        font-size: var(--font-size-29) !important;
+    }
+
+    .travel-box-heading {
+        font-size: var(--font-size-29) !important;
+    }
+
+    .meet-our-team {
+        font-size: var(--font-size-36) !important;
+    }
+
+    .section7-heading {
+        font-size: var(--font-size-24) !important;
+    }
+
+    .member-deals {
+        font-size: var(--font-size-39) !important;
     }
 
 }
@@ -916,6 +986,58 @@
 
     .show {
         left: 0;
+    }
+
+    .lg-flex-direction-column {
+        flex-direction: column !important;
+        display: flex !important;
+    }
+
+    .calenderbox {
+        width: 100%;
+    }
+
+    .mt-12 {
+        margin-top: 12px !important;
+    }
+
+    .going-on {
+        width: 100%;
+    }
+
+    .over-flow-scroll {
+        overflow-x: scroll !important;
+        text-wrap: nowrap;
+    }
+
+    .section1-heading {
+        font-family: "Sans Serif Collection", sans-serif;
+        font-size: var(--font-size-39) !important;
+        color: var(--color-white);
+        font-weight: 400;
+        line-height: 40.2px !important;
+        text-align: center;
+    }
+
+    .section1-travel {
+        font-family: "Sans Serif Collection", sans-serif;
+        font-size: var(--font-size-39) !important;
+        color: var(--color-white);
+        font-weight: 400;
+        line-height: 40.2px !important;
+        text-align: center;
+    }
+
+    .lg-ml-10 {
+        margin-left: 10px !important;
+    }
+
+    .lg-gap-4 {
+        gap: px !important;
+    }
+
+    .lg-gap-4 {
+        gap: .4rem !important;
     }
 
 }
