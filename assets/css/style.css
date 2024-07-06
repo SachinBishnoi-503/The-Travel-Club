@@ -851,6 +851,9 @@
     width: 748px;
     border: 1px solid #E9EBED;
 }
+.top30{
+    top: -30%;
+}
 
 /* section-8 */
 .footer-1 {
